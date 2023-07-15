@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacer</title>
+    <link rel="shortcut icon" href="./images/lacer.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+    <meta name="theme-color" content="#2091F9">
+
+    <!-- con estas etiquetas de meta lo quen hace es que cuando busquemos nuestra pag en google aparesca con este titulo y esta descripcion de aqui abajo-->
+    <!-- Primary Meta Tags -->
+    <title>Punto de venta</title>
+    <meta name="title" content="LACER · TECH">
+    <meta name="description" content="Encuentra las mejores ofertas que te tiene Punto de venta, los mejores servicios y consulta tus dudas aquí.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="ADM-SKY">
+    <meta property="og:description" content="Encuentra las mejores ofertas que te tiene Punto de venta, los mejores servicios y consulta tus dudas aquí.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="ADM-SKY">
+    <meta property="twitter:description" content="Encuentra las mejores ofertas que te tiene Punto de venta, los mejores servicios y consulta tus dudas aquí.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+</head>
+
+<body>
+
+    <!-- Aparatdo bot messenger -->
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "101500002395472");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- -->
+
+    <!-- Apartado Header -->
+    <header class="hero" id="home">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <!-- Esto hara ilucion de un logo-->
+                <h2 class="nav__title"><img height="170px" width="170px" src="./images/lacer.png" alt=""></h2>
+            </div>
+
+            <!-- Apartado navegacion-->
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#home" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Servicios" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#plan" class="nav__links">Obtener plan</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Contacto" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+        <!-- Apartado navegacion-->
+
+        <section class="hero__container container">
+            <h1 class="hero__title entrada">Somos tu mejor opción</h1>
+            <p class="hero__paragraph">
+                Si lo que buscas es posicionar tu nogocio, llevar tu empresa a lo digital, mejorar tus notas o aprender sobre el mundo de la programación de manera practica, facil y divertida , pues <strong>¡¡ LACER · TECH es para ti. !!</strong>
+            </p>
+            <a href="#plan" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+    <!--Fin Apartado Header-->
+
+    <main>
+        <section class="container about" id="Servicios">
+            <h2 class="subtitle">¿Cuales son nuestros Servicios?</h2>
+            <p class="about__paragraph">¿Quieres impulsar tu negocio?, ¿Quieres mejorar tus notas escolares? o ¿Quieres aprender sobre programación? ¡Pues <strong>LACER TECH</strong> es tu mejor opción!<br> <img height="150px" width="150px" src="./images/lacer.png"
+                    alt="">
+            </p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/bx-code-alt.svg" class="about__icon">
+                    <h3 class="about__title">Desarrollo</h3>
+                    <p class="about__paragrah">Si lo que buscas es llevar tu empresa a lo digital, crear una tienda online o algun sistema que lleve la administración de tu negocio, LacerTech es para ti.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/bxs-book-reader.svg" class="about__icon">
+                    <h3 class="about__title">Educación</h3>
+                    <p class="about__paragrah">¿Se te complica algún tema o alguna tarea y quieres aprender de una forma facil y divertida? en LacerTech tenemos la solución para ti.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/bx-line-chart.svg" class="about__icon">
+                    <h3 class="about__title">Posicionamiento</h3>
+                    <p class="about__paragrah">Deseas posicionar tu empresa en los primeros lugares, llegar a más clientes y generar más ventas en tus negocios ¡Pues LacerTech es tu solución!. </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+
+            <!-- Ponemos adentro el contenedor por que queremos ponerle un fondo y no queremos que mida la img del fondo el 90% como
+                 en los demas container-->
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">LacerTech. ¡Adquiere nuestros servicios, que esperas!</h2>
+                    <p class="knowledge__paragraph">Somos la mejor empresa de tecnologia y de educación del estado de Guerrero, contamos con el mejor personal capacitado y con los mejores estandares de calidad del mercado a precios muy accesibles.</p>
+                    <a href="https://www.tiktok.com/@lacer_tech/video/7250342697695776005" class="cta" >Ver más</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lacer_tech/video/7250342697695776005" data-video-id="7250342697695776005" style="max-width: 100px;min-width: 325px;" > <section> <a target="_blank" title="@lacer_tech" href="https://www.tiktok.com/@lacer_tech?refer=embed">@lacer_tech</a> <p>Esperanos proximamente! 🤞🏾🥳 </p> <a target="_blank" title="♬ Aesthetic" href="https://www.tiktok.com/music/Aesthetic-7072513628145977346?refer=embed">♬ Aesthetic</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                    <!-- <img src="./images/lacermacbook.png" class="knowledge__img"> -->
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container" id="plan">
+            <h2 class="subtitle">Obten el plan perfecto para ti</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Desarrollo de Software</p>
+                    <h3 class="price__price">Cotizanos</h3>
+                    <h5 class="price__price">$$</h5>
+                    <div class="price__items">
+                        <p class="price__features">Desarrollo de sitios web modernos</p>
+                        <p class="price__features">E-commerce</p>
+                        <p class="price__features">Sistemas ERP</p>
+                        <p class="price__features">Aplicaciones a la medida</p>
+                    </div>
+
+                    <a href="https://wa.me/527441055925?text=¡Estoy+interesado!" class="price__cta">Contactenos</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Educación</p>
+                    <h3 class="price__price">Cotizanos</h3>
+                    <h5 class="price__price">$$</h5>
+
+                    <div class="price__items">
+                        <p class="price__features">Español, matemáticas, cálculos, física, biología, historia y programación.  </p>
+                        <p class="price__features">Talleres: cómputo y soporte técnico.</p>
+                        <p class="price__features">Regularización Presencial</p>
+                        <p class="price__features">Regularización Online</p>
+                        <p class="price__features">Ayuda con proyectos escolares </p>
+                    </div>
+
+                    <a href="https://wa.me/527441055925?text=¡Estoy+interesado!" class="price__cta">Contactenos</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Pocicionamiento</p>
+                    <h3 class="price__price">Cotizanos</h3>
+                    <h5 class="price__price">$$</h5>
+
+                    <div class="price__items">
+                        <p class="price__features">Pocicionamiento de marca y negocio</p>
+                        <p class="price__features">SEO</p>
+                        <p class="price__features">Campañas publicitarias</p>
+                        <p class="price__features">Marketing digital</p>
+                    </div>
+
+                    <a href="https://wa.me/527441055925?text=¡Estoy+interesado!" class="price__cta">Contactenos</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alexa Cisneros, <span class="testimony__course">Dueña de un edificio.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">Dueña de un edificio.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!
+                        </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Armando, <span class="testimony__course">Dueño de un edificio.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">Dueño de un edificio.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">En este apartado encontrara las preguntas mas frecuentes como tambien podra resolver alguna de sus dudad.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué es LacerTech?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Como sabemos, estamos viviendo la era tecnológica que trae consigo a la <strong>globalización</strong> (llegar a cada rincón del mundo por medio de la tecnología). 
+                            Nosotros somos el equipo que entiende la actualidad y es por ello que te brindamos soluciones de alta calidad tales como: llevar tu <strong>negocio a internet</strong>, posicionarlo en los primeros lugares y brindarte <strong>educación de calidad</strong>. 
+                            Contamos con equipo altamente capacitado para brindarte los mejores servicios.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cual es nuestra vision y mision?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Antes de comprar algun plan es nesesario averse registrado para que ya tenga una cuenta hecha, una vez adquirido el plan adecuado y aver procesado el pago, se le redireccionara otra vez al login para que inicie session, pero ahora
+                            como usuario admninistrador donde podra subir sus locales, oficinas u otros establecimientos para que pueda administrar todas las ventas y tener una buena gestión y control de ello.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Conoce más sobre nosotros
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Automaticamente su cuenta quedara como un usuario normal, hasta que se vuelva a pagar se reactivara su cuenta como admnistrador.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">Más sobre nosotros</h2>
+                <p class="questions__copy">Aquí podra ver todos nuestros servicios para que escojas el que más se adecue a tus necesidades. ¿Qué esperas?.</p>
+                <a href="#" class="cta">ver ahora</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title"><img height="170px" width="170px" src="./images/lacer.png" alt=""></h2>
+
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#home" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#Servicios" class="nav__links">Servicios</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#plan" class="nav__links">Planes</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            
+
+            <form
+  action="https://formspree.io/f/xrgwzjzd"
+  method="POST"
+>
+
+<h2 class="footer__newsletter">Contactenos para cualquier consulta</h2>
+    <div class="footer__inputs">
+        <input type="email" placeholder="Email:" class="footer__input" name="correo">
+        <input name="message" placeholder="mensaje:" class="footer__input">
+        <input type="submit" value="Enviar" class="footer__submit">
+    </div>
+
+</form>
+
+
+
+
+        </section>
+
+        <section class="footer__copy container" id="Contacto">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/profile.php?id=100094378144132" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/tiktok-logo-24.png" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; LACER · TECH</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
+
+
