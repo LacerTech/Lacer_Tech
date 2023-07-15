@@ -36,40 +36,36 @@
 
 <body>
 
-    <!-- Aparatdo bot messenger -->
-    <!-- Messenger Chat Plugin Code -->
+   <!-- Messenger Plugin de chat Code -->
     <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
+    <!-- Your Plugin de chat code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
 
     <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "101500002395472");
-        chatbox.setAttribute("attribution", "biz_inbox");
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "114921231651091");
+      chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
     <!-- Your SDK code -->
     <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                xfbml: true,
-                version: 'v12.0'
-            });
-        };
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v17.0'
+        });
+      };
 
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     </script>
-
-    <!-- -->
 
     <!-- Apartado Header -->
     <header class="hero" id="home">
@@ -291,14 +287,14 @@
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">¿Cual es nuestra vision y mision?
+                        <h3 class="questions__title">¿Cual es nuestra visión y misión?
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Antes de comprar algun plan es nesesario averse registrado para que ya tenga una cuenta hecha, una vez adquirido el plan adecuado y aver procesado el pago, se le redireccionara otra vez al login para que inicie session, pero ahora
-                            como usuario admninistrador donde podra subir sus locales, oficinas u otros establecimientos para que pueda administrar todas las ventas y tener una buena gestión y control de ello.</p>
+                        <p class="questions__show">Nuestra meta es poder apoyar tus proyectos tanto empresariales como escolares para impulsar tus metas y sueños. 
+Queremos posicionarnos como una de las mejores empresas de tecnología y educación de todo México..</p>
                     </div>
                 </article>
 
@@ -310,14 +306,22 @@
                             </span>
                         </h3>
 
-                        <p class="questions__show">Automaticamente su cuenta quedara como un usuario normal, hasta que se vuelva a pagar se reactivara su cuenta como admnistrador.</p>
+                        <p class="questions__show">Sabemos lo difícil que es impulsar un negocio e incluso en ocasiones poner en riesgo todos tus ahorros, es por ello que de una manera genuina nosotros nos ponemos en tu lugar y decidimos crear una empresa de manera digital para poder llegar a ti y a tus necesidades. 
+<br><br><strong>Fundadores:</strong>
+                            <br><br>
+<strong>Cesar Valladares:</strong> Soy Ing. De Software y Sistemas Computacionales. Me identifico por ser un programador apasionado. Me esfuerzo para que en cada uno de mis proyectos se vean reflejados mis mayores valores como ser humano, además de mis mejores habilidades y destrezas como desarrolldor. He desarrollado campañas publicitarias, posicionamiento de empresas (SEO) y administración de sitios web tales como: <a href="https://hotelacapulcoamor.com/" class="">Hotel acapulco Amor</a>, <a href="https://laboratorioamare.com/" class="">laboratorio Amare</a> y <a href="https://puntodenegocio.mx/" class="">punto de negocio</a>. 
+Conoce más sobre  <a href="https://cesar-jo.github.io/CV-Cesar/" class="">mi trabajo</a>. 
+                            <br> <br>
+                        <strong>Lesly Villa:</strong> ¡Hola, soy la Miss Lesly! Llevo 7 años dando clase a niños de primaria y jóvenes de secundaria y preparatoria. Me identifico por ser una maestra apasionada y poder entender a mis alumnos para así adecuarme a su manera de aprender y que de esta forma ellos puedan darse cuenta de su gran potencial y puedan seguir sus sueños. Conoce más sobre mí <a href="cv-lesly.pdf" class="">aquí</a>.
+                        </p>
+                        
                     </div>
                 </article>
             </section>
 
             <section class="questions__offer">
                 <h2 class="subtitle">Más sobre nosotros</h2>
-                <p class="questions__copy">Aquí podra ver todos nuestros servicios para que escojas el que más se adecue a tus necesidades. ¿Qué esperas?.</p>
+                <p class="questions__copy">Aquí podras ver todos nuestros servicios para que escojas el que más se adecue a tus necesidades. ¿Qué esperas?.</p>
                 <a href="#" class="cta">ver ahora</a>
             </section>
         </section>
@@ -367,8 +371,8 @@
         <section class="footer__copy container" id="Contacto">
             <div class="footer__social">
                 <a href="https://www.facebook.com/profile.php?id=100094378144132" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/tiktok-logo-24.png" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/bxl-instagram-alt.svg" class="footer__img"></a>
+                <a href="https://www.tiktok.com/@lacer_tech" class="footer__icons"><img src="./images/bxl-tiktok.svg" class="footer__img"></a>
             </div>
 
             <h3 class="footer__copyright">Derechos reservados &copy; LACER · TECH</h3>
